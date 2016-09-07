@@ -2,12 +2,14 @@
 
 How to set up a base box with Windows 8.1 for use with Vagrant.
 
+**Note: The [Microsoft Edge Dev Platform](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) now has prebuilt images available for specific versions of Windows if you don't want to go through the process of building your own box.**
+
 
 ## getting the base image
 
-Download the image from the [Microsoft Edge Dev Platform](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). Choose the Virtual Machine you want to use (in this case, `IE11 on Win81`), and then choose the `VirtualBox` platform.
+Download the image from the [TechNet Evaluation Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-8-1-enterprise) (you will need to log in to download the image).
 
-Alternatively, you can use your own copy of Windows if you have a license.
+Alternatively, you can use your own copy of Windows if you have the `.iso`.
 
 
 ## creating the virtual machine

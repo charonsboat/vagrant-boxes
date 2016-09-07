@@ -1,6 +1,6 @@
 # vagrant box setup (windows-8.1-x64)
 
-How to set up a [base box with Windows Professional]() for use with Vagrant.
+How to set up a base box with Windows 8.1 for use with Vagrant.
 
 
 ## getting the base image

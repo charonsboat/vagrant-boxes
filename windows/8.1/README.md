@@ -5,7 +5,7 @@ How to set up a [base box with Windows Professional]() for use with Vagrant.
 
 ## getting the base image
 
-Download the evaluation image from [TechNet](http://www.microsoft.com/en-us/evalcenter). Click the "Evaluate Now" dropdown and choose the OS version you want to use.
+Download the image from the [Microsoft Edge Dev Platform](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). Choose the Virtual Machine you want to use (in this case, `IE11 on Win81`), and then choose the `VirtualBox` platform.
 
 Alternatively, you can use your own copy of Windows if you have a license.
 
@@ -36,7 +36,7 @@ After the installation finishes, install Guest Additions, run the Windows Update
 
 ```powershell
 # download the script
-wget https://raw.githubusercontent.com/drmyersii/workstation-provisioners/master/windows-8.1/box-setup/setup.ps1
+wget https://raw.githubusercontent.com/drm2/vagrant-boxes/master/windows/8.1/setup.ps1
 
 # run the script
 ./setup.ps1
